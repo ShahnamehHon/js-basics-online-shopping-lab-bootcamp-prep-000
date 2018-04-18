@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- const
+ let price = Math.floor()
 }
 
 function viewCart() {
