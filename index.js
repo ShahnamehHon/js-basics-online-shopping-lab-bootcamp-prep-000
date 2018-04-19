@@ -33,8 +33,15 @@ function viewCart() {
 
 
 function total() {
-  // write your code here
-}
+  let totalValue = 0;
+  let i = 0;
+  while(i < cart.length) {
+    totalValue = totalValue + parseInt(cart[i].itemPrice);
+    i++;
+ }
+  return totalValue;
+ }
+
 
 function removeFromCart(item) {
   // write your code here
